@@ -1,0 +1,26 @@
+
+////////// ESTUCTURA DE PROYECTO WEBPACK /////////////////////////////////
+
+201~200~mi-proyecto/
+│
+├── node_modules/          # Aquí se instalan todas las dependencias del proyecto
+│
+├── public/                # Contiene archivos estáticos como HTML, imágenes, etc.
+│   ├── index.html         # El archivo principal de tu aplicación
+│   └── favicon.ico        # Icono de la página (opcional)
+│
+├── src/                   # La carpeta principal donde se encuentra el código fuente de tu aplicación
+│   ├── assets/            # Imágenes, fuentes, etc., utilizados en el proyecto
+│   │   └── logo.png       # Ejemplo de imagen
+│   ├── components/        # Componentes reutilizables de React o Vue.js, por ejemplo
+│   │   └── Header.vue     # Un componente de encabezado
+│   ├── styles/            # Estilos globales o específicos de componentes
+│   │   └── App.css        # Estilos CSS para la aplicación
+│   ├── utils/             # Utilidades comunes, funciones auxiliares, etc.
+│   │   └── api.js         # Funciones para interactuar con una API
+│   └── App.js             # Punto de entrada de tu aplicación (React) o main.js (Vue.js)
+│
+├──.webpack.config.js     # Configuración personalizada de Webpack
+│
+└── package.json           # Información sobre el proyecto y sus dependencias////// Estructura de proyecto webapck ///////
+
