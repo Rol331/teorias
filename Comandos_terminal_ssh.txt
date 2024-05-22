@@ -1,0 +1,36 @@
+TERMINAL 
+
+Hacer una  backup en el misma carpeta   —>   mysqldump -u evanzu -p --no-tablespaces  mi_tierra_db > tierraDB.sql  
+ ziperar de desde terminal  →   zip -r tierraBlanca.zip tierraBlanca (r par un directorio )
+extraer terminal → unzip tierraBlanca.zip
+
+Descargar desde termina → scp -r  wh52o55jo1zx@107.180.2.121:/home/wh52o55jo1zx/public_html/bmatic.com.pe /Users/rolf  . (el punto es importante para indicar en que direcctorio se esta guardado el punto indica el directorio actual
+)
+
+Youtbe en terminal mps -youtube —	> instalar y actualizar con pip 3 
+
+ssh -o HostKeyAlgorithms=ssh-rsa wh52o55jo1zx@107.180.2.121  → forzar ingreso de ssh 
+
+scp -o HostKeyAlgorithms=ssh-rsa two-b_ecomoda.sql wh52o55jo1zx@107.180.2.121:/home/wh52o55jo1zx/public_html/evanzu.com/ecomoda  → Cargar archivo con scp
+
+scp -o HostKeyAlgorithms=ssh-rsa wh52o55jo1zx@107.180.2.121:/home/wh52o55jo1zx/public_html/evanzu.com/ecomoda/two-b_ecomoda.sql ./
+→ descargar archivo en el directorio actual 
+
+
+move * /home/wh52o55jo1zx/public_html/evanzu.com/ecomoda → mover todos los archivos de la carpeta actual a otra 
+
+ move .htaccess /home/wh52o55jo1zx/public_html/evanzu.com/ecomoda → mover un archivo
+
+
+SOURCE /home/wh52o55jo1zx/public_html/evanzu.com/ecomoda/two-b_ecomoda.sql;  → importar datos mysql se debe estar dentro de la base de datos
+
+                               
+
+rm -f parte*  → Borra archivos que comienzen con el nombre parte 
+
+
+ mv producto.cs producto.csv  → renombrar extinción archivo 
+
+unar archivo.rar  → descomprimir un archiv rar 
+
+
