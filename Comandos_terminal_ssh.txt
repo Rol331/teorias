@@ -33,4 +33,6 @@ rm -f parte*  → Borra archivos que comienzen con el nombre parte
 
 unar archivo.rar  → descomprimir un archiv rar 
 
+abrir un archivo html desde terminal con chrome --> open -a "Google Chrome" index.html
 
+eliminar un carpeta terminal rm -r "nombre carpeta"

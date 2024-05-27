@@ -156,7 +156,6 @@ C-k → retroceder la busqueda
 C-g → para cancelar busqueda
 
 Indentar código 
-1 – C+space → seleccionar el área a ordenar el código 
 2 –  M-x  indent-region → Comando para ordenar el código 
 x
 Comentar / descomentar  código 
