@@ -183,6 +183,7 @@ C- space → seleccionar texto (presionar flechas direccion)
 M-x mark-whole-buffer → seleccionar todo el buffer 
 M-h → Seleccionar texto (presionar flecha direccion)
 M-w  → copiar texto (MACOS) ir al final del párrafo tambien  / opt+w
+M-w -> copiar emacs ,3333333333333333333333333333333333333333333333333333333333
 C-w   →Cortar texto w
 C-y → pegar texto
 Option - flechas → ir inicio final de cada letra 
@@ -207,18 +208,11 @@ M-> → final del buffer
 
 C-n → mueve el cursor hacia abajo
 M-x end-of-buffer → final de buffer 
-
-
-
-
-
+				
 COMANDOS PARA CUSTOMIZAR APARÊNCIA 
 
 M-x customize-themes
 Enlace de nord theme: https://www.nordtheme.com/ports/emacs
-
-
-                           
 
 PAQUETES
 
@@ -233,9 +227,6 @@ En el archivo init.el o .emacs
 
 
 instalar melpa 
-
-
-
 
 M-x eww – para abrir una URL o buscar algo. Si el texto ingresado no tiene forma de URL, usa DuckDuckGo por defecto para buscar el texto ingresado. Ejecutando eww de nuevo podemos ir abriendo más sitios.
 q – salir
