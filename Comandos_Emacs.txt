@@ -7,7 +7,7 @@ Crear archivo
 
 emacs miarchivo.txt 
 
-C-x C-f  esrcribes el nombre del archivo y enter 
+C-x C-f  esrcribes el nombre del archivo y enter (tambien sirve para crar archivo)
 
 Guardar archivo 
 
@@ -183,7 +183,7 @@ C- space → seleccionar texto (presionar flechas direccion)
 M-x mark-whole-buffer → seleccionar todo el buffer 
 M-h → Seleccionar texto (presionar flecha direccion)
 M-w  → copiar texto (MACOS) ir al final del párrafo tambien  / opt+w
-M-w -> copiar emacs ,3333333333333333333333333333333333333333333333333333333333
+M-w -> copiar emacs
 C-w   →Cortar texto w
 C-y → pegar texto
 Option - flechas → ir inicio final de cada letra 
