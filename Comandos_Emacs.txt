@@ -146,7 +146,8 @@ M-x linum-mode → Muestra los numeros de la linea de código
 M-x display-line-numbers-mode → muestras números en la versiones más recientes 
 M-x global-display-line-numbers-mode → muestra números de linea en todas la ventanas de emacs 
 
-Treemacs
+  TREEMACS 
+
 M-x treemacs     → Muestra un directorio mejorado en emacs (se tiene que instalar con melpa)
 M-x treemacs-select-dir → establece el directorio para emacs
 M-x treemacs-find-file → Comando para buscar un archivo de forma incremental
@@ -154,6 +155,21 @@ C-s → Tecla para buscar de forma incremental
 C-j → avanzar la busqueda
 C-k → retroceder la busqueda
 C-g → para cancelar busqueda
+
+ Asegúrate de que Treemacs esté activado
+(global-minor-mode 'treemacs-mode)
+
+ Navega a la ubicación deseada en Treemacs
+ Suponiendo que ya estás en la ubicación deseada
+
+ Crea un nuevo archivo
+ Presiona C-c C-t y selecciona l opción para crear un nuevo archivo; Ingresa el nombre del archivo y presiona Enter
+
+ Escribe algo en el archivo
+ Guarda el archivo con C-x C-s
+
+
+
 
 Indentar código 
 2 –  M-x  indent-region → Comando para ordenar el código 
@@ -228,9 +244,12 @@ En el archivo init.el o .emacs
 
 instalar melpa 
 
-M-x eww – para abrir una URL o buscar algo. Si el texto ingresado no tiene forma de URL, usa DuckDuckGo por defecto para buscar el texto ingresado. Ejecutando eww de nuevo podemos ir abriendo más sitios.
+NAVEGAR POR INTERNET EN EMACS 
+
+M-x eww – para abrir una URL o buscar algo. Si el texto ingresado no tiene forma de URL, usa DuckDuckGo por defecto para buscar el texto ingresado.
+ Ejecutando eww de nuevo podemos ir abriendo más sitios.
 q – salir
-g – recargar la página
+g – recargar la páginaeww
 w – copiar la URL actual al kill ring
 d  – descargar la URL bajo el cursor
 l – ir para atrás (página anterior)
