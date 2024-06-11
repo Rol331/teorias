@@ -54,9 +54,7 @@ ctrl-x k  (kill-buffer)  → cerrar un buffer sin guardar k
 M-x kill-this-buffer  → Cerrar buffer sin guardar 
 ctrl-x ctrl-c (save-buffers-kill-terminal) sierra emacs guardando los buffers 
 
-Dividir buffers
-
-C-x 2 → divide la pantalla en forma horizontal
+DIVIR BUFFER 
 C-x 3 → divide la pantalla vertical
 C-x 4 b   →divide en cuatro  la pantalla 
 M-x split-window-below → abre una nueva ventana en forma horizontal 
@@ -64,14 +62,14 @@ M-x split-window-right  abre una nueva ventana en forma vertical
 C-0 eliminar una ventana 
 
 
-Tamaño buffers
+TAMAÑO DE BUFFER 
 
 C-x = → Ver el tamaño de la buffer
 C-x { →disminuye los buffer 
 C-x } → aumenta el buffer
 
 
-Busqueda buffers 
+BUSQUEDA DE BUFFER 
 
 M-x isearch-forward → búsqueda hacia adelante
 C-s → buscar y siguiente 
@@ -80,7 +78,7 @@ C-r  →anterior
 C-c C-l → buscar sin distinguir entre mayusculas y minusculas 
 
 
-Modo Buffer 
+MODO BUFFER 
 C-x C-q
 
 
@@ -181,7 +179,9 @@ Comentar / descomentar  código
 1 – C+space → seleccionar el área del código 
 2  – M-x uncomment-region →comando descomentar código 
 
+BUSQUEDAS
 
+ 
 M-x find-grep  → buscar cualquier texto dentro del directorio actual y sub directorios (se tiene que instalar )
 M-x helm-swoop → búsqueda incremental de texto dentro de un archivo especifico 
 M-g-g → Ir una determinada línea de código
@@ -248,7 +248,7 @@ NAVEGAR POR INTERNET EN EMACS
 
 M-x eww – para abrir una URL o buscar algo. Si el texto ingresado no tiene forma de URL, usa DuckDuckGo por defecto para buscar el texto ingresado.
  Ejecutando eww de nuevo podemos ir abriendo más sitios.
-q – salir
+q – salirew
 g – recargar la páginaeww
 w – copiar la URL actual al kill ring
 d  – descargar la URL bajo el cursor
