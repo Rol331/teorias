@@ -1,3 +1,41 @@
 IMPORTAR BASE DE DATOS 
 
 mysql -u t_usuario -p tu_nombre_de_base_de_datos < nombre_de_tu_archivo.sql
+
+
+EJEMPLO INNER JOIN 
+
+
+Tabla 1: Empleados
+| id_empleado | nombre    |
+|-------------|-----------|
+| 1           | Juan      |
+| 2           | Maria     |
+
+Tabla 2: Departamentos
+| id_departamento | nombre    |
+|-----------------|-----------|
+| 1               | Ventas    |
+| 2               | Marketing |
+
+Tabla 3: Asignaciones
+| id_asignacion | id_empleado | id_departamento |
+|---------------|-------------|-----------------|
+| 1             | 1           | 1               |
+| 2             | 2           | 2               |
+
+Consulta SQL con Inner Join de las tres tablas:
+```sql
+SELECT e.nombre as nombre_empleado, d.nombre as nombre_departamento
+FROM Empleados e
+INNER JOIN Asignaciones a ON e.id_empleado = a.id_empleado
+INNER JOIN Departamentos d ON a.id_departamento = d.id_departamento;
+```
+
+Resultado: 
+
+| nombre_empleado | nombre_departamento |
+|-----------------|---------------------|
+| Juan            | Ventas              |
+| Maria           | Marketing           |
+
