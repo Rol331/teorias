@@ -1,0 +1,3 @@
+IMPORTAR BASE DE DATOS 
+
+mysql -u t_usuario -p tu_nombre_de_base_de_datos < nombre_de_tu_archivo.sql
