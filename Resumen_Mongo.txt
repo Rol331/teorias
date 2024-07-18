@@ -50,8 +50,13 @@ $nin - not in - no dentro de
 
 Comando para limpiar pantall: cls
 
+db.nombreColeccion.count() ---> contar cantidad de documentos (mongo muestra mensaje de deprecación countDocuments)  
 
+db.export_tem_google.deleteMany({});  --> Limpiar data de una colleccion (dejarlo vacio ) 
 
+db.nombreColeccion.deleteMany({ estado: "inactivo" })  ---> con parametro 
+
+db.nombreColeccion.deleteOne({ nombre: "Juan" }) --> Elininar un solo documento que cumpla con el criterio (PENDIENTE PRUEBA E INVESTIGACIÓN ) 
 
 producto
 

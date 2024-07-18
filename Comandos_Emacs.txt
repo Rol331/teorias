@@ -142,7 +142,9 @@ PROGRAMAR EN EMACS
 
 M-x linum-mode → Muestra los numeros de la linea de código 
 M-x display-line-numbers-mode → muestras números en la versiones más recientes 
-M-x global-display-line-numbers-mode → muestra números de linea en todas la ventanas de emacs 
+M-x global-display-line-numbers-mode → muestra números de linea en todas la ventanas de emac (si vuelves a escribir el mismo comando se desactiva)  
+
+s 
 
   TREEMACS 
 
@@ -224,6 +226,12 @@ M-> → final del buffer
 
 C-n → mueve el cursor hacia abajo
 M-x end-of-buffer → final de buffer 
+
+
+COMANDO PARA IR DIRECTAMENTE AL ARCHIVO 
+
+
+M-x find-file-at-point -> colocar enl cursor en el código de importación y luego escribir el comando   
 				
 COMANDOS PARA CUSTOMIZAR APARÊNCIA 
 
