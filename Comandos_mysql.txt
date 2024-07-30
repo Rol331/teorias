@@ -1,7 +1,17 @@
 IMPORTAR BASE DE DATOS 
 
-mysql -u t_usuario -p tu_nombre_de_base_de_datos < nombre_de_tu_archivo.sql
+  mysql -u t_usuario -p tu_nombre_de_base_de_datos < nombre_de_tu_archivo.sql
+   SOURCE /home/wh52o55jo1zx/public_html/evanzu.com/ecomoda/two-b_ecomoda.sql;  → importar datos mysql se debe estar dentro de la base de datos
 
+
+CREAR ARCHIVO  DE IMPORTACION O EXPORTAR BASE DE DATOS 
+
+  mysqldump -u [username] -p[password] [database_name] > [output_file].sql
+
+
+CONSULTA PARA CONTAR TODAS LAS TABLAS DE LA BASE DE DATOS 
+
+Select count(*) from information_schema.tables where table_schema = 'prueba_relacion';
 
 EJEMPLO INNER JOIN 
 
